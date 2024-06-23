@@ -8,6 +8,8 @@ document.getElementById('apply-discount').addEventListener('click', () => {
     }else{
         alert("This coupon has expired or has already been applied to your account(s). Coupon code is not available. Please enter a valid promotion code.")
     }
+})
 
-    
+document.getElementById('buy-now').addEventListener('click',()=>{
+    document.location.href = "greeting.html"
 })
